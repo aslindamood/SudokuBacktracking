@@ -13,7 +13,7 @@
 int main()
 {
     Puzzle puzzle;
-    puzzle.readFromFile("17-1.txt");
+    puzzle.readFromFile("tests/17-1.txt");
     puzzle.print();
     puzzle.solve();
     puzzle.print();
